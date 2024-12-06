@@ -1,0 +1,20 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "Book Store MERN stack project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "node server/server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.7"
+  }
+}

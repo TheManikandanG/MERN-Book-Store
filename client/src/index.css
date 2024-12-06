@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc; 
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Add any additional custom styling here */
